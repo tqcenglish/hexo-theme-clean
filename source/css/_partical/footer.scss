@@ -1,6 +1,8 @@
 footer {
   .copyright {
     @include basic;
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
     display: flex;
     line-height: 3em;
     color: #BABABA;

@@ -8,16 +8,17 @@
     align-self: flex-start;
     section {
       padding: 20px 25px;
+      background-color: white;
       border-bottom: 1px solid rgba(178,186,194,.15);
       a {
-        color: #404040;
+        color: #0366d6;
         &:hover {
           color: $hover-color;
         }
         h3 {
           margin: 0 0 5px;
-          font-size: 25px;
-          font-weight: 700;
+          font-size: 20px;
+          font-weight: 600;
           transition: $transition;
         }
       }
@@ -31,6 +32,7 @@
       }
       .post-content {
         color: #a3a3a3;
+        font-size: 14px;
         margin-bottom: 8px;
         * {
           margin: 0;
@@ -39,7 +41,7 @@
         }
       }
       .post-meta {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 200;
         color: #6E7173;
         .seperator {
@@ -129,9 +131,11 @@
 .paging {
   @include basic;
   padding-top: 1em;
+  padding-bottom: 1em;
   .paging-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background: transparent;
     width: 75%;
     &> div {
       display: inline-block;

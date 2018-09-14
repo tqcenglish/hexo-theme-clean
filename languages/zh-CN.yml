@@ -2,7 +2,7 @@ archive_a: 归档
 archive_b: 归档：%s
 blogroll: 友情链接
 categories: 文章分类
-category: Category
+category: 分类
 comment: 留言
 date_format: YYYY年MM月DD日
 newer: Newer
@@ -15,7 +15,7 @@ prev: 上一页
 recent_posts: 最新文章
 rss_feed: RSS Feed
 search: 搜索
-share: Share
+share: 分享
 tag: Tag
 tagcloud: 标签云
 tags: 标签

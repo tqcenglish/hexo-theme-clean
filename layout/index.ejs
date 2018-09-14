@@ -10,6 +10,14 @@
           <% } %>
       </div>
     <% } %>
+    <div  style="position: static; top: 0px; left: 129px; width: 229px;">
+        <h1>
+          <span><%- config['author'] %></span>
+          <br/>
+          <span><%- config['description'] %></span>
+        </h1>
+      </div>
+
     <% if(site.categories.length) { %>
       <div class="categories">
         <h1>
@@ -79,8 +87,8 @@
         </div>
       </section>
     <%})%>
+    <% if (page.total > 1){ %>
+      <%- partial('_partial/paging') %>
+    <% } %>
   </div>
 </main>
-<% if (page.total > 1){ %>
-  <%- partial('_partial/paging') %>
-<% } %>
