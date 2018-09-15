@@ -24,10 +24,10 @@ $animation-time: 0.3s;
   align-self: flex-start;
 }
 
-@mixin left-container {
+@mixin right-container {
   width: 66%;
   border-radius: 2px;
-  box-shadow: $box-shadow;
+  //box-shadow: $box-shadow;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -48,7 +48,7 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #909090;
+  color: #0366d6;
 }
 
 main {
